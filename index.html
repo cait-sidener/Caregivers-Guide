@@ -2,35 +2,56 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+  Survey
+</title>
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Chosen -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 </head>
 <body>
 
-<h2>Activities</h2>
-<p></p>
-
-<div class="dropdown" style="float:left;">
-  <button class="dropbtn">Nourishment</button>
-  <div class="dropdown-content" style="left:0;">
-    <form action=""></form>
-    <input type="radio">Breast Milk<br>
-    <input type="radio">Cow's Milk<br>
-    <input type="radio">Water<br>
-    <input type="radio">Breakfast<br>
-    <input type="radio">Lunch<br>
-    <input type="radio">Snack<br>
-    <input type="radio">Dinner<br>
-
-  </div>
+<div class="input-field col s12">
+  <h3>Nourshiment</h3>
+  <select class="chosen-select" id="question2" aria-placeholder="Select an Option">
+      <option value></option>
+      <option value="1">Breast Milk</option>
+      <option value="2">Cow's Milk</option>
+      <option value="2">Water</option>
+      <option value="2">Breakfast</option>
+      <option value="4">Lunch</option>
+      <option value="5">Snack</option>
+      <option value="6">Dinner</option>
+  </select>
+  
 </div>
+<br>
 
-<div class="dropdown" style="float:right;">
-  <button class="dropbtn">Activity</button>
-  <div class="dropdown-content">
-    <p>Link 1</p>
-    <p>Link 2</p>
-    <p>Link 3</p>
-  </div>
+<div class="input-field col s12">
+  <h3>Activity</h3>
+  <select class="chosen-select" id="question2" aria-placeholder="Select an Option">
+      <option value></option>
+      <option value="1">Nap</option>
+      <option value="2">Swing</option>
+      <option value="3">Walk with Cart</option>
+      <option value="4">Read</option>
+      <option value="5">Stroll</option>
+      <option value="6">Playground</option>
+      <option value="7">Swim</option> 
+  </select>
+  
 </div>
+<br>
 
 </body>
 </html>
